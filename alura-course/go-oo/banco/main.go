@@ -3,19 +3,21 @@ package main
 import (
 	"fmt"
 
-	"github.com/pedro-hos/go-studies/tree/main/alura-course/go_oo/banco/contas"
+	"go-studies/alura-course/go-oo/banco/contas"
 )
 
+func PagarBoleto(conta verificarConta, valorDoBoleto float64) {
+	conta.Sacar(valorDoBoleto)
+}
+
+type verificarConta interface {
+	Sacar(valor float64) string
+}
+
 func main() {
-
-	contaPedro := contas.ContaCorrente{
-		Titular:       "Pedro",
-		NumeroAgencia: 1234,
-		NumeroConta:   1234567,
-		Saldo:         10000}
-
-	fmt.Println(contaPedro.Saldo)
-	fmt.Println(contaPedro.Sacar(100.))
-	fmt.Println(contaPedro.Saldo)
-
+	contaDoBruno := contas.ContaPoupanca{}
+	contaDoBruno.Depositar(1100)
+	fmt.Println(contaDoBruno)
+	PagarBoleto(&contaDoBruno, 60)
+	fmt.Println(contaDoBruno.ObterSaldo())
 }
