@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-
 	"go-studies/alura-course/go-oo/banco/contas"
 )
 
