@@ -13,7 +13,7 @@ var (
 )
 
 func ConectaComBancoDeDados() {
-	stringDeConexao := "host=127.0.0.1 user=keycloak password=keycloak dbname=personas port=5432 sslmode=disable"
+	stringDeConexao := "host=127.0.0.1 user=keycloak password=keycloak dbname=keycloak port=5432 sslmode=disable"
 	DB, err = gorm.Open(postgres.Open(stringDeConexao))
 	if err != nil {
 		log.Panic("Erro ao conectar com banco de dados")
