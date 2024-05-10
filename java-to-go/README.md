@@ -1,1 +1,2 @@
-Exercisises from [Transition from Java to Go](https://www.linkedin.com/learning/transition-from-java-to-go/)
+- Exercisises from [Transition from Java to Go](https://www.linkedin.com/learning/transition-from-java-to-go/)
+- References: https://github.com/LinkedInLearning/transitioning-from-java-to-go-2464007/tree/main

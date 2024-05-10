@@ -1,0 +1,1 @@
+- Repo for https://www.linkedin.com/learning/treating-go-as-an-object-oriented-language/treating-go-in-an-oop-way
