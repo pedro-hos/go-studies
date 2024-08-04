@@ -30,3 +30,4 @@ This is my Learning Go repository
 |[Go Design Patterns](https://www.linkedin.com/learning/go-design-patterns/go-design-patterns)|- | To Do |Linkedin Learning| EN |-|
 |[Secure Coding in Go](https://www.linkedin.com/learning/secure-coding-in-go/why-care-about-security)|- | To Do |Linkedin Learning| EN |-|
 |[Go: Validações, testes e páginas HTML](https://www.alura.com.br/curso-online-go-validacoes-testes-paginas-html)|[github](https://github.com/pedro-hos/go-studies/tree/main/alura-course/go-validacoes/api_rest_gin_go)| To Do |Alura| PT-BR | |
+|[Descomplicando o Go](https://www.linuxtips.io/course/descomplicando-o-go)|- | To Do |Linux Tips| PT |-|
